@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  PDFView
+//  PDF Practice
 //
-//  Created by Jacob Bailosky on 2/27/19.
+//  Created by Jacob Bailosky on 1/8/19.
 //  Copyright © 2019 Jacob Bailosky. All rights reserved.
 //
 

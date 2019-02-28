@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33D39BE72227727200E9180F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D39BE62227727200E9180F /* AppDelegate.swift */; };
-		33D39BE92227727200E9180F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D39BE82227727200E9180F /* ViewController.swift */; };
-		33D39BEC2227727200E9180F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D39BEA2227727200E9180F /* Main.storyboard */; };
 		33D39BEE2227727300E9180F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D39BED2227727300E9180F /* Assets.xcassets */; };
 		33D39BF12227727300E9180F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D39BEF2227727300E9180F /* LaunchScreen.storyboard */; };
+		33D39BFB222772D100E9180F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D39BF8222772D100E9180F /* Main.storyboard */; };
+		33D39BFC222772D100E9180F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D39BF9222772D100E9180F /* ViewController.swift */; };
+		33D39BFD222772D100E9180F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D39BFA222772D100E9180F /* AppDelegate.swift */; };
+		33D39C002227738400E9180F /* MAASTO Abstracts Flyer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33D39BFF2227738400E9180F /* MAASTO Abstracts Flyer.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33D39BE32227727200E9180F /* PDFView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33D39BE62227727200E9180F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33D39BE82227727200E9180F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		33D39BEB2227727200E9180F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33D39BED2227727300E9180F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D39BF02227727300E9180F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D39BF22227727300E9180F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D39BF8222772D100E9180F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		33D39BF9222772D100E9180F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33D39BFA222772D100E9180F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33D39BFF2227738400E9180F /* MAASTO Abstracts Flyer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MAASTO Abstracts Flyer.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		33D39BE52227727200E9180F /* PDFView */ = {
 			isa = PBXGroup;
 			children = (
-				33D39BE62227727200E9180F /* AppDelegate.swift */,
-				33D39BE82227727200E9180F /* ViewController.swift */,
-				33D39BEA2227727200E9180F /* Main.storyboard */,
+				33D39BFA222772D100E9180F /* AppDelegate.swift */,
+				33D39BF9222772D100E9180F /* ViewController.swift */,
+				33D39BF8222772D100E9180F /* Main.storyboard */,
 				33D39BED2227727300E9180F /* Assets.xcassets */,
 				33D39BEF2227727300E9180F /* LaunchScreen.storyboard */,
 				33D39BF22227727300E9180F /* Info.plist */,
+				33D39BFF2227738400E9180F /* MAASTO Abstracts Flyer.pdf */,
 			);
 			path = PDFView;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					33D39BE22227727200E9180F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,9 +126,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D39C002227738400E9180F /* MAASTO Abstracts Flyer.pdf in Resources */,
+				33D39BFB222772D100E9180F /* Main.storyboard in Resources */,
 				33D39BF12227727300E9180F /* LaunchScreen.storyboard in Resources */,
 				33D39BEE2227727300E9180F /* Assets.xcassets in Resources */,
-				33D39BEC2227727200E9180F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +140,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D39BE92227727200E9180F /* ViewController.swift in Sources */,
-				33D39BE72227727200E9180F /* AppDelegate.swift in Sources */,
+				33D39BFD222772D100E9180F /* AppDelegate.swift in Sources */,
+				33D39BFC222772D100E9180F /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		33D39BEA2227727200E9180F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33D39BEB2227727200E9180F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		33D39BEF2227727300E9180F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EFRXL2SBW5;
 				INFOPLIST_FILE = PDFView/Info.plist;
@@ -291,6 +289,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.projitechllc.PDFView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EFRXL2SBW5;
 				INFOPLIST_FILE = PDFView/Info.plist;
